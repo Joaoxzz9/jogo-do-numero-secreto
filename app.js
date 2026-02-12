@@ -1,6 +1,6 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
-let numeroSecreto = parseInt(Math.random) * 10 + 1;
+let numeroSecreto = gerarNumeroAleatorio;
 let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto){
